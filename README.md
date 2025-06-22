@@ -48,3 +48,6 @@ pip install -r requirements.txt
 
 ✅ Observações
 Este projeto tem caráter educacional e pode conter exemplos simples, focados apenas no entendimento de conceitos de API REST.
+
+# 🛠️ TROUBLESHOOTING 
+Quando acrescentar o arquivo .env, se der mensagem de erro, basta abrir no bloco de notas, colar a chave do token e salvar
