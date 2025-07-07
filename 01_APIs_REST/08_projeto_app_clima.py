@@ -77,4 +77,4 @@ def main():
 if __name__ == '__main__':
     main()
 
-# streamlit run 08_projeto_app_clima.py
+# streamlit run 01_APIs_REST/08_projeto_app_clima.py
