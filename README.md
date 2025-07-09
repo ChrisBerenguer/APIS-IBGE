@@ -39,7 +39,7 @@ cd APIS-IBGE
 
 python -m venv venv
 source venv/bin/activate  # Linux / Mac
-venv\Scripts\activatevenv\Scripts\activate     # Windows
+venv\Scripts\activate     # Windows
 
 3. Instale as dependências:
 pip install -r requirements.txt

@@ -17,7 +17,7 @@ url = "https://accounts.spotify.com/api/token"
 autenticacao = HTTPBasicAuth(username=id_cliente, password=cliente_secret)
 
 
-# Configurando os headers da requisição
+# Configurando os headers da requisição -- Vem na documentação da API
 body = {
     'grant_type': 'client_credentials'
 }

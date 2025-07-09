@@ -8,6 +8,7 @@ _ = load_dotenv(find_dotenv())
 
 client = openai.Client()
 
+# :::: Ele só está retornando as Bolsas Internacionais ::::
 
 def retorna_cotacao_hist(
         ticker,
