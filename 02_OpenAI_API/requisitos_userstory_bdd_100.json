@@ -1,0 +1,68 @@
+[
+    {
+        "User Story": "Sistema de Login",
+        "Eu como": "usuário do sistema",
+        "Quero": "fazer login com email e senha",
+        "Para": "acessar minha conta e funcionalidades do sistema",
+        "--------------------": "",
+        "Cenário 1": "Login realizado com sucesso",
+        "Dado que": "estou na tela de login",
+        "Quando": "preencho email e senha válidos",
+        "Então": "o sistema deve autenticar o usuário",
+        "E": "devo ser redirecionado para a página principal",
+        "Cenário 2": "Login com credenciais inválidas"
+    },
+    {
+        "User Story": "Cadastro de Usuário",
+        "Eu como": "novo usuário",
+        "Quero": "criar uma conta no sistema",
+        "Para": "poder acessar as funcionalidades disponíveis",
+        "--------------------": "",
+        "Cenário 1": "Cadastro realizado com sucesso",
+        "Dado que": "estou na tela de cadastro",
+        "Quando": "preencho todos os campos obrigatórios corretamente",
+        "Então": "o sistema deve criar minha conta",
+        "E": "devo receber um email de confirmação",
+        "Cenário 2": "Cadastro com dados inválidos"
+    },
+    {
+        "User Story": "Recuperação de Senha",
+        "Eu como": "usuário que esqueceu a senha",
+        "Quero": "solicitar uma nova senha",
+        "Para": "poder acessar minha conta novamente",
+        "--------------------": "",
+        "Cenário 1": "Solicitação de nova senha",
+        "Dado que": "estou na tela de recuperação de senha",
+        "Quando": "informo meu email cadastrado",
+        "Então": "o sistema deve enviar um link de recuperação",
+        "E": "devo receber um email com instruções",
+        "Cenário 2": "Email não encontrado"
+    },
+    {
+        "User Story": "Perfil do Usuário",
+        "Eu como": "usuário logado",
+        "Quero": "editar minhas informações pessoais",
+        "Para": "manter meus dados atualizados",
+        "--------------------": "",
+        "Cenário 1": "Atualização de perfil",
+        "Dado que": "estou na página do meu perfil",
+        "Quando": "altero minhas informações e salvo",
+        "Então": "o sistema deve atualizar meus dados",
+        "E": "devo ver uma mensagem de confirmação",
+        "Cenário 2": "Dados inválidos no perfil"
+    },
+    {
+        "User Story": "Logout do Sistema",
+        "Eu como": "usuário logado",
+        "Quero": "fazer logout da minha conta",
+        "Para": "proteger minha sessão e dados pessoais",
+        "--------------------": "",
+        "Cenário 1": "Logout realizado com sucesso",
+        "Dado que": "estou logado no sistema",
+        "Quando": "clico no botão de logout",
+        "Então": "o sistema deve encerrar minha sessão",
+        "E": "devo ser redirecionado para a tela de login",
+        "Cenário 2": "Logout automático por inatividade"
+    }
+]
+

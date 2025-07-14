@@ -51,3 +51,9 @@ Este projeto tem caráter educacional e pode conter exemplos simples, focados ap
 
 # 🛠️ TROUBLESHOOTING 
 Quando acrescentar o arquivo .env, se der mensagem de erro, basta abrir no bloco de notas, colar a chave do token e salvar
+
+
+
+# Rodar o Streamlit
+
+streamlit run 02_OpenAI_API/22_User_Stories_BDD.py
